@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desequilibrio Ecológico</title>
+    <link rel="stylesheet" href="infodesequilibrio.css">
+    <link rel="icon" href="icono.png" type="image/x-icon">
+    <style>
+        .carousel-container {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .carousel-content {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .text-box {
+            min-width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .carousel-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(56, 68, 52, 0.253);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .prev-button {
+            left: 10px;
+        }
+
+        .next-button {
+            right: 10px;
+        }
+
+    </style>
+</head>
+<body background="Iphone wallpaper green, Simple wallpapers, Iphone wallpaper Download Free.jfif">
+
+    <nav>
+        <h1><style>
+            .rotar-imagen {
+              transform: rotate(10); 
+            }
+          </style>
+       <a href="lol.html"><img src="logo-removebg-preview (1).png" width="100" height="100"></a><font face="Cooper Black" color="#ffffff" size="7">PlayGreen!</font></center></h1>
+       <ul>
+           <li><a href="didactico_eco.html">Didactico Cadenas Troficas </a></li>
+           <li><a href="desequilibrioeco.html">Didactico Desequilibrio Ecologico</a></li>
+           <li><a href="lol.html">Menú</a></li>
+       </ul>
+   </nav>
+    
+<div class="background">
+    <header class="header">
+        <h1>Desequilibrio Ecológico</h1>
+    </header>
+
+    <div class="carousel-container">
+        <div class="carousel-content">
+            <div class="text-box">
+                <h2>¿Qué es el Desequilibrio Ecológico?</h2>
+                <p>El desequilibrio ecológico se refiere a la alteración significativa del equilibrio natural de un ecosistema...</p>
+            </div>
+
+            <div class="text-box">
+                <h2>Causas del Desequilibrio Ecológico</h2>
+                <p>Las principales causas del desequilibrio ecológico incluyen:</p>
+                <ul>
+                    <li>Deforestación</li>
+                    <li>Contaminación</li>
+                    <li>Cambio Climático</li>
+                    <li>Sobrepesca</li>
+                    <li>Urbanización</li>
+                </ul>
+            </div>
+
+            <div class="text-box">
+                <h2>Consecuencias del Desequilibrio Ecológico</h2>
+                <p>El desequilibrio ecológico puede llevar a una variedad de problemas...</p>
+                <ul>
+                    <li>Pérdida de biodiversidad</li>
+                    <li>Alteración de ciclos naturales</li>
+                    <li>Desertificación</li>
+                    <li>Calentamiento global</li>
+                    <li>Escasez de recursos naturales</li>
+                </ul>
+            </div>
+
+            <div class="text-box">
+                <h2>Cómo Podemos Ayudar</h2>
+                <p>Todos podemos tomar medidas para mitigar el desequilibrio ecológico...</p>
+                <ul>
+                    <li>Reducir, reutilizar y reciclar</li>
+                    <li>Utilizar fuentes de energía renovable</li>
+                    <li>Participar en la reforestación</li>
+                    <li>Evitar el uso de plásticos de un solo uso</li>
+                    <li>Apoyar prácticas agrícolas sostenibles</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Botones de navegación -->
+        <button class="carousel-button prev-button" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="carousel-button next-button" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+
+    <a href="desequilibrioeco.html"><button onclick="jugar()">¡Jugar y Aprender!</button></a>
+</div>
+<!-- Tarjetas -->
+<div class="tarjetas-container">
+    <div class="tarjeta">
+        <img src="https://wwflac.awsassets.panda.org/img/original/deforestacio-n-en-colombia.jpg" alt="Deforestación" class="tarjeta-imagen">
+        <div class="tarjeta-texto">
+            <h3>Deforestación</h3>
+            <p>La deforestación es un proceso provocado por el hombre mediante el cual se elimina masa forestal, normalmente con el objetivo de cambiar la actividad a la que se va a dedicar dicho suelo.</p>
+        </div>
+    </div>
+
+    <div class="tarjeta">
+        <img src="https://www.fundacionaquae.org/wp-content/uploads/2020/03/Tipos-de-contaminacion-1024x597.jpg" alt="Contaminación" class="tarjeta-imagen">
+        <div class="tarjeta-texto">
+            <h3>Contaminación</h3>
+            <p>Se entiende por contaminación ambiental cuando existe la presencia de sustancias nocivas en el agua, aire o suelo. Las sustancias nocivas son lo que llamamos contaminantes ambientales, pudiendo tener diferente origen. Además, se encuentran en diferentes concentraciones y en diferentes lugares.</p>
+        </div>
+    </div>
+
+    <div class="tarjeta">
+        <img src="https://www.iatisegurosvida.com/wp-content/uploads/2019/05/cambio-climatico-causas-consecuencias-2.jpg" alt="Cambio Climático" class="tarjeta-imagen">
+        <div class="tarjeta-texto">
+            <h3>Cambio Climático</h3>
+            <p>El cambio climático es la modificación de la temperatura y del resto de variables del clima, que se está produciendo con una velocidad e intensidad sin precedentes en la historia de la humanidad, como consecuencia de la actividad humana.</p>
+        </div>
+    </div>
+</div>
+
+<script src="infodesequilibrio.js"></script>
+<hr>
+<footer>
+    <p>&copy; 2024 Proyecto de Desequilibrio Ecológico. Todos los derechos reservados.</p>
+</footer>
+
+<script>
+    let currentSlide = 0;
+
+    function moveSlide(direction) {
+        const slides = document.querySelectorAll('.text-box');
+        const totalSlides = slides.length;
+
+        currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
+        const carouselContent = document.querySelector('.carousel-content');
+        carouselContent.style.transform = `translateX(-${currentSlide * 100}%)`;
+    }
+</script>
+
+</body>
+</html>
